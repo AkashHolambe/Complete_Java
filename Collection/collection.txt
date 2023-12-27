@@ -1,0 +1,4 @@
+Collection in java is a frame work that provides an architecture to store and manupulate the group of object.
+
+Java Collection can achive all the operation that you perform on data search like searching , sorting , insertion 
+manipulation and delection
