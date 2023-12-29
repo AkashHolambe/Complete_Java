@@ -3,7 +3,7 @@ public class SelectionSort {
   public static void main(String[] args) {
     // Selection sort where we push smaller elements to the front.
     int arr[] = { 7, 4, 5, 3, 6, 2, 1 };
-    
+    // This is a array which we are going to use for sorting 
     sort(arr);
     print(arr);
   }
@@ -18,7 +18,7 @@ public class SelectionSort {
         }
       }
 
-      // Swap the found minimum element with the element at i
+      // Swap the found minimum element with the element at i this is for to assigne the small value in array to campare with other element of array.
       int temp = arr[minpos];
       arr[minpos] = arr[i];
       arr[i] = temp;
